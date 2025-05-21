@@ -56,7 +56,8 @@
 | **Bash**              | ✅ 支持               | ✅ 支持               |
 | **POSIX Shell（sh）** | ❌ 不支持（除非 Bash 兼容模式） | ✅ 支持（POSIX 标准） |
 | **Zsh/Ksh**           | ✅ 支持               | ✅ 支持               |
-在脚本中建议用source
----
+---  
+在脚本中建议用source  
+
 
 
