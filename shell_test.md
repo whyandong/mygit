@@ -1,28 +1,28 @@
 # shell脚本基础知识
 ## 1 $相关参数
-命令行参数\$0～\$9\$(10)
-命令行个数 \$#
-\${!#} 获取最后一个参数值的写法，是\${!n}扩展写法
-\$*  所有命令行参数一个整体 使用时要用引号
-\$@   所有命令行参数  多个整体  使用时要用引号
-\$? 返回执行执行结果
+命令行参数\$0～\$9\$(10)  
+命令行个数 \$#  
+\${!#} 获取最后一个参数值的写法，是\${!n}扩展写法  
+\$*  所有命令行参数一个整体 使用时要用引号  
+\$@   所有命令行参数  多个整体  使用时要用引号  
+\$? 返回执行执行结果  
 ## 2 脚本比较符号助记
--eq   equql
--ne   not equal
--gt   greater than
--lt   less than
--ge  greater equal
--le  less equal
--n   Non-zero   non-empty
--z   zero       zero length
--nt   newer than
--ot   older than
--O     Owner
+-eq   equql  
+-ne   not equal  
+-gt   greater than  
+-lt   less than  
+-ge  greater equal  
+-le  less equal  
+-n   Non-zero   non-empty  
+-z   zero       zero length  
+-nt   newer than  
+-ot   older than  
+-O     Owner  
 -G    Group  
--e    exist
--d   directory
--f   file
--s   文件存在且大小》0 size
+-e    exist  
+-d   directory  
+-f   file  
+-s   文件存在且大小》0 size  
 ## 3 shell脚本中括号的使用分类对比表
 ### Shell 脚本中的括号及变体总览（POSIX/旧式/新式）
 ---
