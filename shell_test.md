@@ -98,6 +98,17 @@ for (( i=0 ; i <${#my_arr[*]}; i++));do
         echo ${my_arr[$i]}
 done
 ```
+- 关联数组，类似与字典，通过declare -A进行声明
+```
+#!/bin/bash
+:<<'COMMENT'
+关联数组,类似数组
+COMMENT
+declare -A site=(["wh"]="http" ["12"]="https" ["13"]="tcp")
+echo ${site["13"]}
+echo ${site[*]}
+```
+
 
 
 
