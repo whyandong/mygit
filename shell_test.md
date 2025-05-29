@@ -58,6 +58,31 @@
 | **Zsh/Ksh**           | ✅ 支持               | ✅ 支持               |
 ---  
 在脚本中建议用source  
+## shell中的数组  
+- 数组的初始化、删除、引用、切片和拼接基本操作  
+数组用（）表示，元素用空格分隔，通过数字下标的方式来进行访问
+```
+#!/bin/bash
+#数组初始化
+my_arr=(1 2 3 4 5 6 7 8)
+#数组引用赋值
+my_arr[1]=100
+#输出单个数组
+echo ${my_arr[1]}
+#获取数组长度两种方式
+echo ${#my_arr[@]}
+echo ${#my_arr[*]}
+#获取数组所有元素两种方式
+echo ${my_arr[@]}
+echo ${my_arr[*]}
+#删除数组中部分元素
+unset my_arr[1]
+echo ${#my_arr[*]}
+#数组拼接
+test_arr=(9 10 11 12 11 10 9 8)
+new_arr=(${my_arr[*]} ${test_arr[*]})
+echo ${new_arr[*]}
+```
 
 
 
