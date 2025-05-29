@@ -83,6 +83,21 @@ test_arr=(9 10 11 12 11 10 9 8)
 new_arr=(${my_arr[*]} ${test_arr[*]})
 echo ${new_arr[*]}
 ```
+- 通过循环结构遍历数组
+```
+#! /bin/bash
+count=0
+my_arr=(10 9 8 7)
+while [ $count -le 10 ];do
+        read -p "Enter number: " number
+        my_arr[$count]=$number
+        count=$((count + 1))
+done
+echo ${my_arr[*]}
+for (( i=0 ; i <${#my_arr[*]}; i++));do
+        echo ${my_arr[$i]}
+done
+```
 
 
 
