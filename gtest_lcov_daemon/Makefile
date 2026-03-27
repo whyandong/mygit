@@ -15,30 +15,30 @@ TEST_OBJS = $(TEST_SRCS:.cpp=.o)
 all: test
 
 src/daemon.o: src/daemon.c
-    $(CC) $(CFLAGS) -DUNIT_TEST -c $< -o $@
+	$(CC) $(CFLAGS) -DUNIT_TEST -c $< -o $@
 
 %.o: %.c
-    $(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 %.o: %.cpp
-    $(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 test: $(OBJS) $(TEST_OBJS)
-    $(CXX) $(LDFLAGS) -o run_tests $(OBJS) $(TEST_OBJS) $(GTEST_LIBS)
+	$(CXX) $(LDFLAGS) -o run_tests $(OBJS) $(TEST_OBJS) $(GTEST_LIBS)
 
 run: test
-    # reset counters (optional)
-    lcov --directory . --zerocounters
-    ./run_tests
+	# reset counters (optional)
+	lcov --directory . --zerocounters
+	./run_tests
 
 coverage: run
-    # capture coverage data
-    lcov --directory . --capture --output-file coverage.info
-    # remove system and test files from report
-    lcov --remove coverage.info '/usr/*' '*/test/*' -o coverage.filtered.info
-    genhtml coverage.filtered.info --output-directory coverage-report
-    @echo "Open coverage-report/index.html"
+	# capture coverage data
+	lcov --directory . --capture --output-file coverage.info
+	# remove system and test files from report
+	lcov --remove coverage.info '/usr/*' '*/test/*' -o coverage.filtered.info
+	genhtml coverage.filtered.info --output-directory coverage-report
+	@echo "Open coverage-report/index.html"
 
 clean:
-    rm -f src/*.o test/*.o *.o run_tests *.gcda *.gcno coverage*.info
-    rm -rf coverage-report
+	rm -f src/*.o test/*.o *.o run_tests *.gcda *.gcno coverage*.info
+	rm -rf coverage-report
