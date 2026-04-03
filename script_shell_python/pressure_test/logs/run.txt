@@ -1,0 +1,5 @@
+first_reboot
+s3_test
+s4_test
+reboot_test
+ltp_functional_test

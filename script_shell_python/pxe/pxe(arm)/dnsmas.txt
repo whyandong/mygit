@@ -1,0 +1,24 @@
+listen-address=192.168.0.1
+dhcp-boot=/debian-installer/arm64/bootnetaa64.efi,boothost,192.168.0.1
+
+# 绑定的⽹卡
+interface=enp2s0
+bind-interfaces
+# 此项⾮必须
+domain=pxe.local
+# IP分配范围 192.168.0.50,192.168.0.150, dhcp租期1⼩时
+dhcp-range=192.168.0.1,192.168.0.255,1h
+# ⽹关
+dhcp-option=3,192.168.0.1
+# DNS
+dhcp-option=6,192.168.0.1
+# 转发dns请求到上级服务器
+server=114.114.114.114
+# ⼴播地址
+dhcp-option=28,192.168.0.255
+# NTP服务器，0.0.0.0 指向⾃⼰
+dhcp-option=42,0.0.0.0
+# 启⽤dnsmasq内置tftp服务
+enable-tftp
+# tftp根⽬录
+tftp-root=/var/tftp

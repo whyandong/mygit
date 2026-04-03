@@ -1,0 +1,16 @@
+set menu_color_normal=white/black
+
+set menu_color_highlight=black/light-gray
+
+insmod gzio
+
+menuentry "Install uos" {
+    set gfxpayload=keep
+    linux   /debian-installer/arm64/live/vmlinuz console=tty boot=live netboot=nfs nfsroot=192.168.0.1:/var/nfs/arm64/ components union=overlay locales=zh_CN.UTF-8 livecd-installer --
+    initrd  /debian-installer/arm64/live/initrd.img
+}
+menuentry "Try uos without installing" {
+    set gfxpayload=keep
+    linux   /debian-installer/arm64/live/vmlinuz console=tty boot=live union=overlay quiet splash --
+    initrd  /debian-installer/arm64/live/initrd.img
+}
