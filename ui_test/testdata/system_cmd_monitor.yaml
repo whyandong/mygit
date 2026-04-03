@@ -1,0 +1,8 @@
+system_cmd_monitor:
+- ps
+- vmstat
+- top
+- iostat
+- sar
+- netstat
+- lsof

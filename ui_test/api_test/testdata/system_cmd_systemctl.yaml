@@ -1,0 +1,15 @@
+system_cmd_systemctl:
+- kill
+- man
+- who
+- date
+- more
+- ps
+- su
+- sudo
+- uname
+- dpkg
+- auditctl
+- aureport
+- ausearch
+- autrace

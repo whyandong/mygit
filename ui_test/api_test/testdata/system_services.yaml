@@ -1,0 +1,15 @@
+system_services:
+- NetworkManager            
+- cups
+- ssh
+- smbd
+- nmbd
+- auditd
+- bluetooth
+- cron
+- license
+- kdump-tools
+- lightdm
+- timesync
+- upower
+- ufw
