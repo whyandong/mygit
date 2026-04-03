@@ -1,0 +1,24 @@
+{
+	"test": [{
+		 "casename": "日志同步社区版接口",
+			"http": {
+                "url": "https://gray-update-pre.uniontech.com/api/v1/systemupdatelogs",
+				"method": "post",
+				"headers":
+				 {
+        "Content-Type": "application/json"
+    },
+				"data":
+        {
+        "platformType": 3
+        }
+
+			},
+		"expected": 200
+
+	}
+	]
+}
+
+
+

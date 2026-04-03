@@ -1,0 +1,22 @@
+{
+	"test": [{
+		"casename": "锁定任务精准匹配",
+		"http": {
+			"url": "http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages",
+			"method": "get",
+			"headers": {
+				"Authorization": "",
+				"X-Repo-Token": "a=UnionTech OS Desktop;b=Desktop;c=Professional;v=20.1041.11018.101;i=30479775ac1b5a0bce2285f37b247ab3392456399159d5c640d7e0ff8ca98c86;m=Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz;ac=amd64;cu=0;sn=99AAYFA5YSC7AXS2MY3R5SQQM",
+				"X-Real-IP": "36.154.87.211",
+				"X-Archive-Type": "main",
+				"LicenseMachineID": "cbcnc12142",
+				"X-Forwarded-For": "36.154.87.211",
+				"License-Code": "xhjeh123",
+				"X-Source-Url": "http://professional-packages-pre.chinauos.com/desktop-professional"
+			},
+			"data": {
+
+			}},
+			"expected": 307
+	}]
+}

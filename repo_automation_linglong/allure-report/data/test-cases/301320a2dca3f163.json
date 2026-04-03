@@ -1,0 +1,106 @@
+{
+  "uid" : "301320a2dca3f163",
+  "name" : "test_update_status[200-http://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报url为空]",
+  "fullName" : "script.update_platform.test_update_status_1.Test_Update#test_update_status",
+  "historyId" : "4e973be074f0770573197ca1ffa0fbd0",
+  "time" : {
+    "start" : 1649905305043,
+    "stop" : 1649905305047,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "191db673212213d0",
+      "name" : "log",
+      "source" : "191db673212213d0.txt",
+      "type" : "text/plain",
+      "size" : 277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script.update_platform"
+  }, {
+    "name" : "suite",
+    "value" : "test_update_status_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Update"
+  }, {
+    "name" : "host",
+    "value" : "zhanyuanyuan-PC"
+  }, {
+    "name" : "thread",
+    "value" : "17349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.update_platform.test_update_status_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'更新结果上报url为空'"
+  }, {
+    "name" : "data",
+    "value" : "{'sourceUrl': '', 'serialNumber': '121245445', 'machineID': '74cf680c819c5a50e904143a750791e8df5dc478a93c274505c0a05c911b1cf1', 'status': 0, 'msg': '上报成功', 'timestamp': 1640135630}"
+  }, {
+    "name" : "expected",
+    "value" : "200"
+  }, {
+    "name" : "headers",
+    "value" : "{}"
+  }, {
+    "name" : "url",
+    "value" : "'http://gray-update-pre.uniontech.com/api/v1/update/status'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8968e5a4a139d9ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649904667944,
+          "stop" : 1649904667947,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "301320a2dca3f163.json",
+  "parameterValues" : [ "'更新结果上报url为空'", "{'sourceUrl': '', 'serialNumber': '121245445', 'machineID': '74cf680c819c5a50e904143a750791e8df5dc478a93c274505c0a05c911b1cf1', 'status': 0, 'msg': '上报成功', 'timestamp': 1640135630}", "200", "{}", "'http://gray-update-pre.uniontech.com/api/v1/update/status'" ]
+}

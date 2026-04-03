@@ -1,0 +1,19 @@
+{
+	"test": [{
+		 "casename": "根据id 删除APP",
+			"http": {
+                "url": "/apps/2",
+				"method": "delete",
+				"headers":
+				{
+                  "X-Token": "aaadhwdhwq"
+                },
+				"data":{
+
+}
+			},
+		"expected": 0
+
+	}
+	]
+}

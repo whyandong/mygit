@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "9f5142fdc3e59b30568f62e6f5e24cfe",
+    "name" : "script.update_platform",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 38,
+      "unknown" : 0,
+      "total" : 38
+    }
+  } ]
+}

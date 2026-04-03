@@ -1,0 +1,27 @@
+{
+	"test": [{
+		 "casename": "新增app",
+			"http": {
+                "url": "/apps",
+				"method": "post",
+				"headers":
+				{
+                  "X-Token": "aaadhwdhwq"
+                },
+				"data":{"appId": "com.ugetdm.uget36134",
+	"name": "",
+	"version": "2.2.36",
+	"arch": "x86_64,arm64",
+	"kind": "app",
+	"runtime": "",
+	"uabUrl": "",
+	"repoName": "",
+	"description": "hi"
+
+}
+			},
+		"expected": 0
+
+	}
+	]
+}

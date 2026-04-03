@@ -1,0 +1,27 @@
+{
+	"test": [{
+		 "casename": "更新结果上报完整参数",
+			"http": {
+                "url": "http://gray-update-pre.uniontech.com/api/v1/update/status",
+				"method": "post",
+				"headers":
+				{},
+				"data":{"sourceUrl": ["http://professional-packages-pre.chinauos.com/desktop-professional"],
+					"serialNumber":"",
+    "machineID":"534b2a4ccf9d829ef992eb56f1bc108028af8e2733dfd93213a5d27f98621724",
+    "status":1,
+    "msg":"上报成功",
+	"timestamp": 1640135630,
+					"version":"20.1050.107"
+}
+			},
+		"expected": 200
+
+	}
+	]
+}
+
+
+
+
+

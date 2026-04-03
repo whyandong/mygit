@@ -1,0 +1,21 @@
+{
+	"test": [{
+		 "casename": "根据id 更新app",
+			"http": {
+                "url": "/apps/1",
+				"method": "put",
+				"headers":
+				{
+                  "X-Token": "aaadhwdhwq"
+                },
+				"data":{"AppId": "linux.qq.com",
+	"version": "2.2.4",
+	"arch": "x86_64"
+
+}
+			},
+		"expected": 0
+
+	}
+	]
+}

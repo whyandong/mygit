@@ -1,0 +1,10 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://gray-update-admin-pre.uniontech.com:80 "GET /api/v1/oauth/login HTTP/1.1" 307 345
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://login-platform-pre.uniontech.com:80 "GET /login?access_type=offline&client_id=9209cfa0a069fe025b23b200b976baf1629d2e26&redirect_uri=http%3A%2F%2Fgray-update-admin-pre.uniontech.com%2Fapi%2Fv1%2Foauth%2Fcallback&response_type=code&scope=base+user%3Aread&state=04c8331c1e283ce81a77aa6c44752dda HTTP/1.1" 200 None
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://login-platform-pre.uniontech.com:80 "POST /login?access_type=offline&client_id=9209cfa0a069fe025b23b200b976baf1629d2e26&redirect_uri=http%3A%2F%2Fgray-update-admin-pre.uniontech.com%2Fapi%2Fv1%2Foauth%2Fcallback&response_type=code&scope=base+user%3Aread&state=04c8331c1e283ce81a77aa6c44752dda HTTP/1.1" 302 0
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://login-platform-pre.uniontech.com:80 "GET /authorize?response_type=code&client_id=9209cfa0a069fe025b23b200b976baf1629d2e26&redirect_uri=http://gray-update-admin-pre.uniontech.com/api/v1/oauth/callback&state=04c8331c1e283ce81a77aa6c44752dda HTTP/1.1" 302 0
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://gray-update-admin-pre.uniontech.com:80 "GET /api/v1/oauth/callback?code=YSG21KLYNE-07UYA_TBZFG&state=04c8331c1e283ce81a77aa6c44752dda HTTP/1.1" 307 78
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://gray-update-admin-pre.uniontech.com:80 "GET / HTTP/1.1" 200 None
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:231 Starting new HTTP connection (1): 10.0.33.50:9302
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://10.0.33.50:9302 "GET /repository/get/eagle/non-free/binary-amd64/Packages HTTP/1.1" 307 204
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://gray-update-admin-pre.uniontech.com:80 "POST /api/v1/terminal/query HTTP/1.1" 200 576
+[32mINFO    [0m 更新平台:test_apt_update_case_7.py:51 锁定任务精准匹配 用例执行通过

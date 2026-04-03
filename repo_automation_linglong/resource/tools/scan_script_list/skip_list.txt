@@ -1,0 +1,7 @@
+#接口gesture方法被删除
+/script/dbus/systemBus/gesture/003_setDblclickDuration.py
+#needRestartOSD方法被删除
+/home/backup/Work/dbus/dbus/script/dbus/sessionBus/sessionManagerXSetting/007_needRestartOSD.py
+
+#接口com.deepin.daemon.helper.Backlight.DDCCI被删除
+/script/dbus/systemBus/helperBacklight/001_refreshDisplays.py

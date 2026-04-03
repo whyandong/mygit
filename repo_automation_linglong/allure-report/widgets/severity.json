@@ -1,0 +1,381 @@
+[ {
+  "uid" : "4d9f456ba6bd867",
+  "name" : "test_bind_unioinid[404-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers0-APT转发接口版本号为X-Source-Url空值]",
+  "time" : {
+    "start" : 1649905304895,
+    "stop" : 1649905304897,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eb4c5263f88da04",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口status状态错误校验不通过]",
+  "time" : {
+    "start" : 1649905305018,
+    "stop" : 1649905305027,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "301320a2dca3f163",
+  "name" : "test_update_status[200-http://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报url为空]",
+  "time" : {
+    "start" : 1649905305043,
+    "stop" : 1649905305047,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84d2ddf2eb81ba36",
+  "name" : "渠道名称匹配到分组和任务",
+  "time" : {
+    "start" : 1649905292798,
+    "stop" : 1649905293824,
+    "duration" : 1026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5527b7888ec892c7",
+  "name" : "匹配到锁定任务条件搜索",
+  "time" : {
+    "start" : 1649905291699,
+    "stop" : 1649905292724,
+    "duration" : 1025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af57d696e9d48666",
+  "name" : "序列号精准匹配到任务",
+  "time" : {
+    "start" : 1649905300519,
+    "stop" : 1649905301541,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0e6104157c223d",
+  "name" : "test_update_status[1-https://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报 status错误]",
+  "time" : {
+    "start" : 1649905305080,
+    "stop" : 1649905305091,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2ccf2422d1bf8a8",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口全量参数]",
+  "time" : {
+    "start" : 1649905304939,
+    "stop" : 1649905304964,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32d9f9f899ff8530",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口status空校验不通过]",
+  "time" : {
+    "start" : 1649905304981,
+    "stop" : 1649905304990,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48efaa08a66f33c",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口customer_name为空校验不通过]",
+  "time" : {
+    "start" : 1649905304993,
+    "stop" : 1649905305003,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63e90c3d6da634d",
+  "name" : "暂停任务匹配后开启任务",
+  "time" : {
+    "start" : 1649905299394,
+    "stop" : 1649905300446,
+    "duration" : 1052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d286831c9d928778",
+  "name" : "test_update_status[200-http://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报序列号为空]",
+  "time" : {
+    "start" : 1649905305049,
+    "stop" : 1649905305057,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbc4849867325d3c",
+  "name" : "高于主线版本没有匹配到任务返回当前版本",
+  "time" : {
+    "start" : 1649905296067,
+    "stop" : 1649905297092,
+    "duration" : 1025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c052324b946a8b03",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口license_machine_id为空校验不通过]",
+  "time" : {
+    "start" : 1649905304968,
+    "stop" : 1649905304978,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc86826d72789bae",
+  "name" : "APT转发接口Authorization为空值",
+  "time" : {
+    "start" : 1649905304879,
+    "stop" : 1649905304883,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c7b92547c9e47f6",
+  "name" : "test_update_status[1-https://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报 status空值]",
+  "time" : {
+    "start" : 1649905305067,
+    "stop" : 1649905305077,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62a5232992c1149c",
+  "name" : "test_bind_unioinid[404-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers1-APT转发接口X-Archive-Type空值]",
+  "time" : {
+    "start" : 1649905304904,
+    "stop" : 1649905304906,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f3c72e0e70a226",
+  "name" : "结束任务匹配不到任务返回主线仓库",
+  "time" : {
+    "start" : 1649905298276,
+    "stop" : 1649905299316,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3874cf1b91faafe",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口message_id为空校验不通过]",
+  "time" : {
+    "start" : 1649905305006,
+    "stop" : 1649905305015,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3602cd9a106bf280",
+  "name" : "暂停任务匹配后开启任务",
+  "time" : {
+    "start" : 1649905303792,
+    "stop" : 1649905304849,
+    "duration" : 1057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6fec45c09cb8c26",
+  "name" : "按数量更新匹配到任务",
+  "time" : {
+    "start" : 1649905288399,
+    "stop" : 1649905289426,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e468294cc1d3b50f",
+  "name" : "test_update_status[200-http://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报完整参数]",
+  "time" : {
+    "start" : 1649905305030,
+    "stop" : 1649905305040,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7aec8117d4a6251b",
+  "name" : "apt全量参数请求",
+  "time" : {
+    "start" : 1649905304857,
+    "stop" : 1649905304871,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "991838013f3e3acd",
+  "name" : "按数量更新匹配到任务数量完成",
+  "time" : {
+    "start" : 1649905289500,
+    "stop" : 1649905290527,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c460938dca413bf0",
+  "name" : "1043终端用户不满足任务返回当前版本",
+  "time" : {
+    "start" : 1649905301608,
+    "stop" : 1649905302633,
+    "duration" : 1025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3724c7f702439839",
+  "name" : "比例更新 任务比例已完成",
+  "time" : {
+    "start" : 1649905287289,
+    "stop" : 1649905288322,
+    "duration" : 1033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb63fb4a09d98374",
+  "name" : "test_bind_unioinid[307-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers3-APT转发接口License-Code空值]",
+  "time" : {
+    "start" : 1649905304925,
+    "stop" : 1649905304936,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70cdaa499954197c",
+  "name" : "暂停任务匹配不到任务返回主线仓库",
+  "time" : {
+    "start" : 1649905297156,
+    "stop" : 1649905298209,
+    "duration" : 1053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9337ae323141d89f",
+  "name" : "test_bind_unioinid[307-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers2-APT转发接口LicenseMachineID空值]",
+  "time" : {
+    "start" : 1649905304909,
+    "stop" : 1649905304923,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b2ffdc6d72a6479",
+  "name" : "test_bind_unioinid[404-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers0-APT转发接口ip为空]",
+  "time" : {
+    "start" : 1649905304899,
+    "stop" : 1649905304901,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e6178dd88e8362",
+  "name" : "没有匹配到任何任务返回主线下载",
+  "time" : {
+    "start" : 1649905293892,
+    "stop" : 1649905294921,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94ff00b22d4c5c2a",
+  "name" : "匹配到锁定任务精准",
+  "time" : {
+    "start" : 1649905290602,
+    "stop" : 1649905291629,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45f53e2271d6348f",
+  "name" : "test_bind_unioinid[307-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers0-APT转发接口token版本号为空值]",
+  "time" : {
+    "start" : 1649905304885,
+    "stop" : 1649905304892,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cbad260e7fe75f",
+  "name" : "比例更新匹配任务",
+  "time" : {
+    "start" : 1649905286193,
+    "stop" : 1649905287221,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52b8816822afec47",
+  "name" : "序列号精准匹配到任务",
+  "time" : {
+    "start" : 1649905302702,
+    "stop" : 1649905303725,
+    "duration" : 1023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26c1caf048f9f21f",
+  "name" : "高于主线版本没有匹配到任务返回当前版本",
+  "time" : {
+    "start" : 1649905294981,
+    "stop" : 1649905296006,
+    "duration" : 1025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2958f3f4467886b",
+  "name" : "APT转发接口授权码错误校验不通过",
+  "time" : {
+    "start" : 1649905304875,
+    "stop" : 1649905304877,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5555c34dac7fb300",
+  "name" : "test_update_status[1-http://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报设备id为空]",
+  "time" : {
+    "start" : 1649905305060,
+    "stop" : 1649905305065,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

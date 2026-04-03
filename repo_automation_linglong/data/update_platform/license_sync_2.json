@@ -1,0 +1,27 @@
+{
+	"test": [{
+		 "casename": "同步接口status空校验不通过",
+			"http": {
+                "url": "https://gray-update-pre.uniontech.com/api/v1/license/sync",
+				"method": "post",
+				"headers":
+				 {
+        "Content-Type": "application/json"
+    },
+				"data":[
+        {
+        "license_machine_id":"license_machine_id",
+        "status":"",
+        "customer_name":"统信软件",
+        "message_id":"xBt6gfSui2yFcGQ8xBt6gfSui2yFcGQ8"
+        }
+    ]
+			},
+		"expected": 200
+
+	}
+	]
+}
+
+
+

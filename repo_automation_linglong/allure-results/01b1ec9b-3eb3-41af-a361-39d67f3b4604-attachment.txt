@@ -1,0 +1,3 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:231 Starting new HTTP connection (1): gray-update-pre.uniontech.com:80
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 http://gray-update-pre.uniontech.com:80 "POST /api/v1/update/status HTTP/1.1" 200 31
+[32mINFO    [0m 更新平台:test_update_status.py:29 更新结果上报完整参数 用例执行通过

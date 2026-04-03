@@ -1,0 +1,103 @@
+{
+  "uid" : "9337ae323141d89f",
+  "name" : "test_bind_unioinid[307-http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages-headers2-APT转发接口LicenseMachineID空值]",
+  "fullName" : "script.update_platform.test_apt_update_5.Test_Apt_Update#test_bind_unioinid",
+  "historyId" : "4b75f3310c0723aab7040bb94ecc0075",
+  "time" : {
+    "start" : 1649905304909,
+    "stop" : 1649905304923,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1d06afee0ebc6e28",
+      "name" : "log",
+      "source" : "1d06afee0ebc6e28.txt",
+      "type" : "text/plain",
+      "size" : 386
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script.update_platform"
+  }, {
+    "name" : "suite",
+    "value" : "test_apt_update_5"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Apt_Update"
+  }, {
+    "name" : "host",
+    "value" : "zhanyuanyuan-PC"
+  }, {
+    "name" : "thread",
+    "value" : "17349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.update_platform.test_apt_update_5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'APT转发接口LicenseMachineID空值'"
+  }, {
+    "name" : "expected",
+    "value" : "307"
+  }, {
+    "name" : "headers",
+    "value" : "{'Authorization': '', 'X-Repo-Token': 'a=UnionTech OS Desktop;b=Desktop;c=Professional;v=20.1042.11018.101;i=74cf680c819c5a50e904143a750791e8df5dc478a93c274505c0a05c911b1cf1;m=Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz;ac=amd64;cu=0;sn=O749G-CXDP5-JJ3VF-KYCY9-FAAA91', 'X-Real-IP': '36.154.87.211', 'X-Archive-Type': 'main', 'LicenseMachineID': '', 'X-Forwarded-For': '36.154.87.211', 'License-Code': 'xhjeh123', 'X-Source-Url': 'http://professional-packages-pre.chinauos.com/desktop-professional'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d38af8dcef87a716",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649904667757,
+          "stop" : 1649904667768,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9337ae323141d89f.json",
+  "parameterValues" : [ "'APT转发接口LicenseMachineID空值'", "307", "{'Authorization': '', 'X-Repo-Token': 'a=UnionTech OS Desktop;b=Desktop;c=Professional;v=20.1042.11018.101;i=74cf680c819c5a50e904143a750791e8df5dc478a93c274505c0a05c911b1cf1;m=Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz;ac=amd64;cu=0;sn=O749G-CXDP5-JJ3VF-KYCY9-FAAA91', 'X-Real-IP': '36.154.87.211', 'X-Archive-Type': 'main', 'LicenseMachineID': '', 'X-Forwarded-For': '36.154.87.211', 'License-Code': 'xhjeh123', 'X-Source-Url': 'http://professional-packages-pre.chinauos.com/desktop-professional'}", "'http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages'" ]
+}

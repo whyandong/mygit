@@ -1,0 +1,25 @@
+{
+	"test": [{
+		"casename": "登入验证以及授权",
+		"http": {
+			"url": "https://login-pre.uniontech.com/api/oauth2/authorize",
+			"method": "post",
+			"headers": {
+				"referer": "https://login-pre.uniontech.com"
+			},
+			"data": {
+				"client_id": "0fac859906254a35ab1c2f3ed1488319",
+				"redirect_uri": "https://account-pre.uniontech.com/login",
+				"scope": "user.api:base",
+				"state": "wdwqfq",
+				"response_type": "code",
+				"account": "wyb1997",
+				"password": "wyb19970803",
+				"token": "FADSLFJQOFJOAWJFOASF",
+				"validate": "fdalsfjalkjfas"
+			}
+		},
+			"expected": 200
+
+	}]
+}

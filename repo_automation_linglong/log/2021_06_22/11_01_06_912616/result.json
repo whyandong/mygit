@@ -1,0 +1,1 @@
+{"script/web_oauth2/test_center_1.py::Test_Login::test_center[200-https://login-pre.uniontech.com/api/key-headers0]": {"steps": {"setup": {"result": "passed", "longrepr": "None"}, "call": {"result": "passed", "longrepr": "None"}, "teardown": {"result": "passed", "longrepr": "None"}}, "result": "pass", "longrepr": "测试通过"}}

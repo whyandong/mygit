@@ -1,0 +1,3 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): gray-update-pre.uniontech.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:461 https://gray-update-pre.uniontech.com:443 "POST /api/v1/license/sync?token=klNrRBMeDBgt0K4%2B1F1/a1WWec7%2BK/m6eCIBXvoMWMo%3D&rt=1649905305 HTTP/1.1" 200 31
+[32mINFO    [0m 更新平台:test_license_sync_5.py:26 同步接口status状态错误校验不通过 用例执行通过

@@ -1,0 +1,181 @@
+{
+  "uid" : "5527b7888ec892c7",
+  "name" : "匹配到锁定任务条件搜索",
+  "fullName" : "script.update_platform.test_apt_update_case_6.Test_Apt_Update#test_apt_update",
+  "historyId" : "af4c9968c1825443530274dbc591a550",
+  "time" : {
+    "start" : 1649905291699,
+    "stop" : 1649905292724,
+    "duration" : 1025
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "断言apt update接口响应成功",
+      "time" : {
+        "start" : 1649905291709,
+        "stop" : 1649905291709,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查询是否上报终端信息",
+      "time" : {
+        "start" : 1649905292710,
+        "stop" : 1649905292719,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取仓库地址和匹配任务是否正确",
+      "time" : {
+        "start" : 1649905292719,
+        "stop" : 1649905292724,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "15a757e70912104b",
+      "name" : "log",
+      "source" : "15a757e70912104b.txt",
+      "type" : "text/plain",
+      "size" : 2127
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script.update_platform"
+  }, {
+    "name" : "suite",
+    "value" : "test_apt_update_case_6"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Apt_Update"
+  }, {
+    "name" : "host",
+    "value" : "zhanyuanyuan-PC"
+  }, {
+    "name" : "thread",
+    "value" : "17349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.update_platform.test_apt_update_case_6"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'锁定任务精准匹配'"
+  }, {
+    "name" : "expected",
+    "value" : "307"
+  }, {
+    "name" : "headers",
+    "value" : "{'Authorization': '', 'X-Repo-Token': 'a=UnionTech OS Desktop;b=Desktop;c=Professional;v=20.1041.11018.101;i=30479775ac1b5a0bce2285f37b247ab3392456399159d5c640d7e0ff8ca98c86;m=Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz;ac=amd64;cu=0;sn=99AAYFA5YSC7AXS2MY3R5SQQM', 'X-Real-IP': '36.154.87.211', 'X-Archive-Type': 'main', 'LicenseMachineID': 'cbcnc12142', 'X-Forwarded-For': '36.154.87.211', 'License-Code': 'xhjeh123', 'X-Source-Url': 'http://professional-packages-pre.chinauos.com/desktop-professional'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "26859b326acbc860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649904654513,
+          "stop" : 1649904655536,
+          "duration" : 1023
+        }
+      }, {
+        "uid" : "61312dabab6592e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649903947757,
+          "stop" : 1649903948780,
+          "duration" : 1023
+        }
+      }, {
+        "uid" : "e10041f0ddd1dc26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649903796544,
+          "stop" : 1649903797567,
+          "duration" : 1023
+        }
+      }, {
+        "uid" : "5b7aa34020ffa0a1",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'group'",
+        "time" : {
+          "start" : 1649903741217,
+          "stop" : 1649903742238,
+          "duration" : 1021
+        }
+      }, {
+        "uid" : "d0d8dc64b59d9448",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649839737736,
+          "stop" : 1649839738760,
+          "duration" : 1024
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5527b7888ec892c7.json",
+  "parameterValues" : [ "'锁定任务精准匹配'", "307", "{'Authorization': '', 'X-Repo-Token': 'a=UnionTech OS Desktop;b=Desktop;c=Professional;v=20.1041.11018.101;i=30479775ac1b5a0bce2285f37b247ab3392456399159d5c640d7e0ff8ca98c86;m=Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz;ac=amd64;cu=0;sn=99AAYFA5YSC7AXS2MY3R5SQQM', 'X-Real-IP': '36.154.87.211', 'X-Archive-Type': 'main', 'LicenseMachineID': 'cbcnc12142', 'X-Forwarded-For': '36.154.87.211', 'License-Code': 'xhjeh123', 'X-Source-Url': 'http://professional-packages-pre.chinauos.com/desktop-professional'}", "'http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages'" ]
+}

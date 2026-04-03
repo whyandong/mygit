@@ -1,0 +1,22 @@
+{
+	"test": [{
+		"casename": "APT转发接口全量参数",
+		"http": {
+			"url": "http://10.0.33.50:9302/repository/get/eagle/non-free/binary-amd64/Packages",
+			"method": "get",
+			"headers": {
+				"Authorization": "",
+				"X-Repo-Token": "a=UnionTech OS Desktop;b=Desktop;c=Professional;v=20.1050.11018.101;i=74cf680c819c5a50e904143a750791e8df5dc478a93c274505c0a05c911b1cf1;m=Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz;ac=mips64;cu=0;sn=",
+				"X-Real-IP": "36.154.87.211",
+				"X-Archive-Type": "main",
+				"LicenseMachineID": "cbc1112142",
+				"X-Forwarded-For": "36.154.87.211",
+				"License-Code": "xhjeh123",
+				"X-Source-Url": "http://professional-packages-pre.chinauos.com/desktop-professional"
+			},
+			"data": {
+
+			}},
+			"expected": 307
+	}]
+}

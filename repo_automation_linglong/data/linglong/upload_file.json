@@ -1,0 +1,19 @@
+{
+	"test": [{
+		 "casename": "新增app",
+			"http": {
+                "url": "/apps/upload",
+				"method": "post",
+				"headers":
+				{
+                  "X-Token": "aaadhwdhwq"
+                },
+				"data":{
+"uploadSubPath": "bundle"
+}
+			},
+		"expected": 0
+
+	}
+	]
+}

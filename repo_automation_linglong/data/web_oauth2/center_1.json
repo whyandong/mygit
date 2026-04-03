@@ -1,0 +1,14 @@
+{
+	"test": [{
+			"casename": "账号中心",
+			"http": {
+                "url": "https://account-pre.uniontech.com/login",
+				"method": "get",
+				"headers": {"referer":"http://login-pre.uniontech.com/"},
+				"data": {}
+			},
+			"expected": 200
+		}
+
+	]
+}

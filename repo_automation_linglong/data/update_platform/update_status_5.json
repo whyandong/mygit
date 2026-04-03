@@ -1,0 +1,21 @@
+{
+	"test": [{
+		 "casename": "更新结果上报 status错误",
+			"http": {
+                "url": "https://gray-update-pre.uniontech.com/api/v1/update/status",
+				"method": "post",
+				"headers":
+				{},
+				"data":{"serialNumber":"ADEEPFCVWEAY4NNQKCYADAAA9",
+    "machineID":"8f1ee2537eead1e9858b62ba2e6bd3b7b0b956f11a2eb07dc8beccd2b59d1d44",
+    "status":3,
+    "msg":"msg11111",
+	"timestamp": 1640135630,
+					"version": 1051
+}},
+		"expected": 1
+
+	}
+	]
+}
+

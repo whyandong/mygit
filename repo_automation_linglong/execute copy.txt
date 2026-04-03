@@ -1,0 +1,11 @@
+script/elf_sign/test_001_elf_deb_notsa.py
+script/elf_sign/test_002_elf_deb.py
+script/elf_sign/test_003_elf_sign_notsa.py
+script/elf_sign/test_004_elf_sign.py
+script/elf_sign/test_005_elf_verify.py
+script/elf_sign/test_006_deb_sign_notsa.py
+script/elf_sign/test_007_deb_sign.py
+script/elf_sign/test_008_deb_sign_expired.py
+script/elf_sign/test_009_deb_verify.py
+script/elf_sign/test_010_elf_whitelist.py
+script/elf_sign/test_011_elf_blacklist.py

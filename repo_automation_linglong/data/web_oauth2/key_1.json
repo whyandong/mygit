@@ -1,0 +1,14 @@
+{
+	"test": [{
+			"casename": "返回秘钥",
+			"http": {
+                "url": "https://login-pre.uniontech.com/api/key",
+				"method": "get",
+				"headers": {"referer":"https://login-pre.uniontech.com"},
+				"data": {}
+			},
+			"expected": 200
+		}
+
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"test": [{
+		 "casename": "更新结果上报设备id为空",
+			"http": {
+                "url": "http://gray-update-pre.uniontech.com/api/v1/update/status",
+				"method": "post",
+				"headers":
+				{},
+				"data":{"sourceUrl": ["http://professional-packages-pre.chinauos.com/desktop-professional"],
+					"serialNumber":"",
+    "machineID":"",
+    "status":0,
+    "msg":"上报失败",
+	"timestamp": 1640135630,
+					"version": 1051
+}
+			},
+		"expected": 1
+
+	}
+	]
+}
+

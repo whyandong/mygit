@@ -1,0 +1,2 @@
+#注释编写区
+#script/elf_sign/test_002_elf_deb.py

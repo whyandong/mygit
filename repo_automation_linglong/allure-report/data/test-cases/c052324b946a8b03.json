@@ -1,0 +1,106 @@
+{
+  "uid" : "c052324b946a8b03",
+  "name" : "test_apt_update[200-https://gray-update-pre.uniontech.com/api/v1/license/sync-headers0-data0-同步接口license_machine_id为空校验不通过]",
+  "fullName" : "script.update_platform.test_license_sync_1.Test_Apt_Update#test_apt_update",
+  "historyId" : "2dbc73aeb38243110ec4b72e956269cf",
+  "time" : {
+    "start" : 1649905304968,
+    "stop" : 1649905304978,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb35e4c11906ac0c",
+      "name" : "log",
+      "source" : "eb35e4c11906ac0c.txt",
+      "type" : "text/plain",
+      "size" : 475
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script.update_platform"
+  }, {
+    "name" : "suite",
+    "value" : "test_license_sync_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Apt_Update"
+  }, {
+    "name" : "host",
+    "value" : "zhanyuanyuan-PC"
+  }, {
+    "name" : "thread",
+    "value" : "17349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.update_platform.test_license_sync_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'同步接口license_machine_id为空校验不通过'"
+  }, {
+    "name" : "data",
+    "value" : "[{'license_machine_id': '', 'status': 1, 'customer_name': '统信软件', 'message_id': 'xBt6gfSui2yFcGQ8xBt6gfSui2yFcGQ8'}]"
+  }, {
+    "name" : "expected",
+    "value" : "200"
+  }, {
+    "name" : "headers",
+    "value" : "{'Content-Type': 'application/json'}"
+  }, {
+    "name" : "url",
+    "value" : "'https://gray-update-pre.uniontech.com/api/v1/license/sync'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1829285b28a41042",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649904667820,
+          "stop" : 1649904667830,
+          "duration" : 10
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c052324b946a8b03.json",
+  "parameterValues" : [ "'同步接口license_machine_id为空校验不通过'", "[{'license_machine_id': '', 'status': 1, 'customer_name': '统信软件', 'message_id': 'xBt6gfSui2yFcGQ8xBt6gfSui2yFcGQ8'}]", "200", "{'Content-Type': 'application/json'}", "'https://gray-update-pre.uniontech.com/api/v1/license/sync'" ]
+}

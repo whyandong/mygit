@@ -1,0 +1,32 @@
+{
+	"test": [{
+		 "casename": "组合删除app",
+			"http": {
+                "url": "/apps/deleteapp",
+				"method": "post",
+				"headers":
+				{
+                  "X-Token": "aaadhwdhwq"
+                },
+				"data":{"appId": "string",
+  "arch": "string",
+  "createdAt": "string",
+  "deletedAt": "string",
+  "description": "string",
+  "id": 0,
+  "kind": "string",
+  "name": "string",
+  "repoName": "string",
+  "runtime": "string",
+  "uabUrl": "string",
+  "updatedAt": "string",
+  "uuid": "string",
+  "version": "string"
+
+}
+			},
+		"expected": 0
+
+	}
+	]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "5555c34dac7fb300",
+  "name" : "test_update_status[1-http://gray-update-pre.uniontech.com/api/v1/update/status-headers0-data0-更新结果上报设备id为空]",
+  "fullName" : "script.update_platform.test_update_status_3.Test_Update#test_update_status",
+  "historyId" : "a510a2d1acbd1d780dd2c7e9abeca191",
+  "time" : {
+    "start" : 1649905305060,
+    "stop" : 1649905305065,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b67c6a37110abde",
+      "name" : "log",
+      "source" : "3b67c6a37110abde.txt",
+      "type" : "text/plain",
+      "size" : 277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script.update_platform"
+  }, {
+    "name" : "suite",
+    "value" : "test_update_status_3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Update"
+  }, {
+    "name" : "host",
+    "value" : "zhanyuanyuan-PC"
+  }, {
+    "name" : "thread",
+    "value" : "17349-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.update_platform.test_update_status_3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'更新结果上报设备id为空'"
+  }, {
+    "name" : "data",
+    "value" : "{'sourceUrl': ['http://professional-packages-pre.chinauos.com/desktop-professional'], 'serialNumber': '', 'machineID': '', 'status': 0, 'msg': '上报失败', 'timestamp': 1640135630}"
+  }, {
+    "name" : "expected",
+    "value" : "1"
+  }, {
+    "name" : "headers",
+    "value" : "{}"
+  }, {
+    "name" : "url",
+    "value" : "'http://gray-update-pre.uniontech.com/api/v1/update/status'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "276ec70b6bb496a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649904667962,
+          "stop" : 1649904667966,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5555c34dac7fb300.json",
+  "parameterValues" : [ "'更新结果上报设备id为空'", "{'sourceUrl': ['http://professional-packages-pre.chinauos.com/desktop-professional'], 'serialNumber': '', 'machineID': '', 'status': 0, 'msg': '上报失败', 'timestamp': 1640135630}", "1", "{}", "'http://gray-update-pre.uniontech.com/api/v1/update/status'" ]
+}

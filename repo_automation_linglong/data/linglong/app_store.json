@@ -1,0 +1,20 @@
+{
+	"test": [{
+		 "casename": "玲珑商店",
+			"http": {
+                "url": "/apps/store",
+				"method": "post",
+				"headers":
+				{
+                  "X-Token": "aaadhwdhwq"
+                },
+				"data":{"limit":0,
+                  "offset": 0}
+			},
+		"expected": 0
+
+	}
+	]
+}
+
+
