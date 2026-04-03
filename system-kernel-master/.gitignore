@@ -1,0 +1,5 @@
+*pycache*
+.idea/
+allure-results
+allure-report
+log

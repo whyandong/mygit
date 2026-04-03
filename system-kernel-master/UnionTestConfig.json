@@ -1,0 +1,17 @@
+{
+  "transform": {
+    "style": "simple",
+    "mode": "delay",
+    "pms": {
+      "root_path": "resource/pms",
+      "id2name_path": "resource/pms/id2name.json",
+      "name2id_path": "resource/pms/name2id.json",
+      "job_json": "resource/pms/pms_job.json"
+    }
+  },
+  "modules": {
+    "ci-case-health": "ci-health-run.txt",
+    "system": "execute.txt",
+    "cve": "execute.txt"
+  }
+}

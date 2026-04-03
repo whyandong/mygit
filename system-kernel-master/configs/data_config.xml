@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is data of test -->
+<data>
+    <run_loop>1</run_loop>
+    <run_loop>2</run_loop>
+    <run_loop>3</run_loop>
+
+    <!-- dbus-config -->
+    <passwd>123</passwd>
+    <passwd1>root</passwd1>
+    <username>user2020</username>
+    <username1>uostest</username1>
+    <test_name>test111</test_name>
+    <groupname>test_group</groupname>
+    <groupname1>test_group1</groupname1>
+    <groupname2>test_group2</groupname2>
+    <desk_background>file:///home/test/Pictures/Wallpapers/abc-123.jpg</desk_background>
+    <gre_background>file:///usr/share/wallpapers/deepin/Colorful-Abstraction01.jpg</gre_background>
+    <layout_type>us;</layout_type>
+    <icon_file>file:///var/lib/AccountsService/icons//11.png</icon_file>
+    <layout1>cn;</layout1>
+    <layout2>us;</layout2>
+    <home_dir>home/autotest</home_dir>
+    <local_info>en_US.UTF-8</local_info>
+    <age>100</age>
+    <shell_path>/bin/sh</shell_path>
+    <time_out>8</time_out>
+    <set_entry>System setup</set_entry>
+
+    <!-- 设置GRUB引导菜单的背景文件的绝对路径 -->
+    <filename1>file:///usr/share/wallpapers/deepin/desktop.jpg</filename1>
+    <filename2>file:///usr/share/wallpapers/deepin/Colorful-Abstraction01.jpg</filename2>
+    <!-- ImageEffect -->
+    <imagefile>/usr/share/wallpapers/deepin/Colorful-Abstraction01.jpg</imagefile>
+    <desktop_imagefile>/usr/share/wallpapers/deepin/desktop.jpg</desktop_imagefile>
+    <effect>pixmix</effect>
+    <!-- system Network -->
+    <netPath>/org/freedesktop/NetworkManager/Devices/2</netPath>
+    <normalIp>10.20.22.1</normalIp>
+    <errorIp>1234</errorIp>
+    <invalidIp>10.22.1.2</invalidIp>
+    <!-- userExperience -->
+    <path>/usr/share/applications/deepin-calculator.desktop</path>
+    <name>深度计算器</name>
+    <app_id>deepin-calculator</app_id>
+    <!-- lastore.smartMirror -->
+    <origin>http://pools.uniontech.com/uos/pool/main/n/netselect/netselect_0.3.ds2-1+deepin_amd64.deb</origin>
+    <official>http://packages.chinauos.cn/uos/ </official>
+    <mirror>http://cdn.packages.deepin.com/deepin/</mirror>
+    <!-- lastore.manager -->
+    <jobid>update_source</jobid>
+    <errType1>dpkgInterrupted</errType1>
+    <errType2>dependenciesBroken</errType2>
+    <installPkgId>deepin-music</installPkgId>
+    <uninstallPkgId>123</uninstallPkgId>
+    <jobName>音乐播放器</jobName>
+    <pkg>deepin-music</pkg>
+
+</data>

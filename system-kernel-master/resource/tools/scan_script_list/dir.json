@@ -1,0 +1,811 @@
+{
+  "script": {
+    "dbus": {
+      "sessionBus": {
+        "appearance": {
+          "files": [
+            "009_getScreenScaleFactors.py",
+            "015_getCursorTheme.py",
+            "014_getOpacity.py",
+            "005_list_04.py",
+            "027_getGtkThumbnail.py",
+            "028_getIconThumbnail.py",
+            "007_list_06.py",
+            "001_appearanceReset.py",
+            "003_list_02.py",
+            "010_getWallpaperSlideShow.py",
+            "018_getMonospaceFont.py",
+            "012_getBackground.py",
+            "029_getCursorThumbnail.py",
+            "004_list_03.py",
+            "021_showWallpaperSlideShow.py",
+            "013_getFontSize.py",
+            "026_showDetail.py",
+            "006_list_05.py",
+            "020_getStandardFont.py",
+            "019_getQtActiveColor.py",
+            "011_setMonitorBackground.py",
+            "022_setType.py",
+            "016_getGtkTheme.py",
+            "023_setScaleFactor.py",
+            "002_list_01.py",
+            "024_setScreenScaleFactors.py",
+            "008_getScaleFactor.py",
+            "017_getIconTheme.py",
+            "025_setWallpaperSlideShow.py"
+          ]
+        },
+        "daemonLauncher": {
+          "files": [
+            "017_fullscreen.py",
+            "014_setUseProxy_01.py",
+            "008_requestSendToDesktop_01.py",
+            "006_isItemOnDesktop_01.py",
+            "001_getAllItemInfos.py",
+            "010_requestRemoveFromDesktop_01.py",
+            "002_getAllNewInstalledApps.py",
+            "007_isItemOnDesktop_02.py",
+            "013_setDisableScaling_02.py",
+            "020_itemChanged_02.py",
+            "018_displayMode.py",
+            "004_getItemInfo.py",
+            "012_setDisableScaling_01.py",
+            "015_setUseProxy_02.py",
+            "009_requestSendToDesktop_02.py",
+            "016_search.py",
+            "005_getUseProxy.py",
+            "021_itemChanged_03.py",
+            "003_getDisableScaling.py",
+            "011_requestRemoveFromDesktop_02.py",
+            "019_itemChanged_01.py"
+          ]
+        },
+        "langSelector": {
+          "files": [
+            "006_langSelectorReset.py",
+            "008_getLocales.py",
+            "002_addLocale.py",
+            "004_getLanguageSupportPackages.py",
+            "001_getLocaleList.py",
+            "010_getCurrentLocale.py",
+            "003_deleteLocale.py",
+            "009_getLocaleState.py",
+            "005_getLocaleDescription.py",
+            "007_setLocale.py"
+          ]
+        },
+        "inputDeviceMouse": {
+          "files": [
+            "011_naturalScroll.py",
+            "013_doubleClick.py",
+            "001_reset.py",
+            "002_dragThreshold.py",
+            "004_disableTpad.py",
+            "003_exist.py",
+            "007_motionThreshold.py",
+            "009_deviceList.py",
+            "010_leftHanded.py",
+            "006_motionAcceleration.py",
+            "012_middleButtonEmulation.py",
+            "005_adaptiveAccelProfile.py",
+            "008_motionScaling.py"
+          ]
+        },
+        "daemonNetwork": {
+          "files": [
+            "001_requestWirelessScan.py",
+            "004_activeConnections.py",
+            "002_networkingEnabled.py",
+            "006_devices.py",
+            "005_connections.py",
+            "003_vpnEnabled.py",
+            "007_connectivity.py",
+            "008_state.py"
+          ]
+        },
+        "display": {
+          "files": [
+            "001_getRealDisplayMode.py"
+          ]
+        },
+        "clipboardManager": {
+          "files": [
+            "002_removeTarget.py",
+            "003_saveClipboard.py",
+            "001_becomeClipboardOwner.py",
+            "004_writeContent.py"
+          ]
+        },
+        "dockSyncConfig": {
+          "files": [
+            "001_dockSyncConfigGet.py",
+            "002_dockSyncConfigSet.py"
+          ]
+        },
+        "inputDeviceKeyboard": {
+          "files": [
+            "007_getLayoutDesc.py",
+            "006_deleteUserLayout.py",
+            "009_reset.py",
+            "002_addUserLayout_01.py",
+            "014_userLayoutList.py",
+            "005_deleteLayoutOption.py",
+            "013_layoutScope.py",
+            "018_repeatDelay.py",
+            "010_userOptionList.py",
+            "016_currentLayout.py",
+            "008_layoutList.py",
+            "001_addLayoutOption.py",
+            "003_addUserLayout_02.py",
+            "012_repeatInterval.py",
+            "017_capslockToggle.py",
+            "015_repeatEnabled.py",
+            "004_clearLayoutOption.py",
+            "011_cursorBlink.py"
+          ]
+        },
+        "gesture": {
+          "files": [
+            "004_getLongPressDurationvalue.py",
+            "001_setShortPressDuration.py",
+            "007_getInfos.py",
+            "002_getShortPressDurationvalue.py",
+            "003_setLongPressDuration.py",
+            "006_getEdgeMoveStopDurationvalue.py",
+            "005_setEdgeMoveStopDuration.py"
+          ]
+        },
+        "apiLunarCalendar": {
+          "files": [
+            "005_getLunarMonthCalendar_01.py",
+            "007_getHuangLiMonth_01.py",
+            "003_getHuangLiDay.py",
+            "004_getLunarInfoBySolar.py",
+            "006_getLunarMonthCalendar_02.py",
+            "008_getHuangLiMonth_02.py",
+            "001_getFestivalMonth.py",
+            "002_getFestivalsInRange.py"
+          ]
+        },
+        "daemonPower": {
+          "files": [
+            "011_getBatteryPercentage.py",
+            "024_getLinePowerScreensaverDelay.py",
+            "001_PowerReset.py",
+            "018_getLowPowerAutoSleepThreshold.py",
+            "007_getBatterySleepDelay.py",
+            "014_getBatteryLidClosedAction.py",
+            "026_getBatteryScreensaverDelay.py",
+            "010_getBatteryIsPresent.py",
+            "020_getAmbientLightAdjustBrightness.py",
+            "017_getLinePowerPressPowerBtnAction.py",
+            "008_getLidIsPresent.py",
+            "022_getBatteryLockDelay.py",
+            "013_getLowPowerNotifyEnable.py",
+            "021_getHasAmbientLightSensor.py",
+            "004_getBatteryScreenBlackDelay.py",
+            "016_getLinePowerLidClosedAction.py",
+            "025_getWarnLevel.py",
+            "002_getLinePowerScreenBlackDelay.py",
+            "005_getScreenBlackLock.py",
+            "006_getSleepLock.py",
+            "019_getLowPowerNotifyThreshold.py",
+            "003_getLinePowerSleepDelay.py",
+            "023_getLinePowerLockDelay.py",
+            "015_getBatteryPressPowerBtnAction.py",
+            "012_getBatteryState.py",
+            "009_getOnBattery.py"
+          ]
+        },
+        "sessionManager": {
+          "files": [
+            "002_canHibernate.py",
+            "008_isInhibited.py",
+            "009_register.py",
+            "001_allowSessionDaemonRun.py",
+            "010_toggleDebug.py",
+            "003_canLogout.py",
+            "012_getStage.py",
+            "005_canShutdown.py",
+            "013_getCurrentSessionPath.py",
+            "011_getLocked.py",
+            "006_canSuspend.py",
+            "007_getInhibitors.py",
+            "004_canReboot.py",
+            "014_getCurrentUid.py"
+          ]
+        },
+        "sessionWatcher": {
+          "files": [
+            "002_isX11SessionActive.py",
+            "001_getSession.py",
+            "003_getIsActive.py"
+          ]
+        },
+        "pinyin": {
+          "files": [
+            "001_queryPinyin.py",
+            "002_queryList.py"
+          ]
+        },
+        "timedate": {
+          "files": [
+            "013_setTimeWithoutRelative.py",
+            "022_getWeekBegins.py",
+            "016_getUse24HourFormat.py",
+            "018_getLongDateFormat.py",
+            "019_getLongTimeFormat.py",
+            "020_getShortDateFormat.py",
+            "008_setEnableNTP.py",
+            "005_getZoneList.py",
+            "004_getZoneInfo.py",
+            "024_getNTPServer.py",
+            "017_getDSTOffset.py",
+            "010_getNTP.py",
+            "006_reset.py",
+            "009_setDisableNTP.py",
+            "002_deleteUserTimezone.py",
+            "015_getCanNTP.py",
+            "003_getSampleNTPServers.py",
+            "012_setTimeWithRelative.py",
+            "001_addUserTimezone.py",
+            "025_getTimezone.py",
+            "007_setDate.py",
+            "021_getShortTimeFormat.py",
+            "023_getWeekdayFormat.py",
+            "011_getLocalRTC.py",
+            "014_getUserTimezones.py"
+          ]
+        },
+        "dock": {
+          "files": [
+            "004_getEntryIDs.py",
+            "021_frontendWindowRect.py",
+            "012_requestUndock_001.py",
+            "015_hideMode.py",
+            "017_dockedApps.py",
+            "016_hideState.py",
+            "010_requestDock_001.py",
+            "018_opacity.py",
+            "023_windowSizeFashion.py",
+            "014_entries.py",
+            "001_getDockedAppsDesktopFiles.py",
+            "022_windowSizeEfficient.py",
+            "019_displayMode.py",
+            "005_activateWindow.py",
+            "009_closeWindow.py",
+            "013_requestUndock_002.py",
+            "020_position.py",
+            "002_isDocked.py",
+            "003_isOnDock.py",
+            "008_makeWindowAbove.py",
+            "007_minimizeWindow.py",
+            "011_requestDock_002.py",
+            "006_maximizeWindow.py"
+          ]
+        },
+        "lastoreSessionHelper": {
+          "files": [
+            "001_isDiskSpaceSufficient.py"
+          ]
+        },
+        "inputDeviceTouchPad": {
+          "files": [
+            "017_palmMinZ.py",
+            "005_motionScaling.py",
+            "004_motionThreshold.py",
+            "019_leftHanded.py",
+            "006_deltaScroll.py",
+            "020_edgeScroll.py",
+            "012_exist.py",
+            "015_palmDetect.py",
+            "010_dragThreshold.py",
+            "013_tPadEnable.py",
+            "002_reset.py",
+            "007_naturalScroll.py",
+            "014_tapClick.py",
+            "008_horizScroll.py",
+            "018_deviceList.py",
+            "016_doubleClick.py",
+            "011_palmMinWidth.py",
+            "001_disableIfTyping.py",
+            "003_motionAcceleration.py",
+            "009_vertScroll.py"
+          ]
+        },
+        "daemonInputDevices": {
+          "files": [
+            "001_Info.py",
+            "002_WheelSpend.py"
+          ]
+        },
+        "keybinding": {
+          "files": [
+            "014_deleteShortcutKeystroke.py",
+            "016_addShortcutKeystroke.py",
+            "015_deleteCustomShortcut.py",
+            "007_searchShortcuts.py",
+            "005_setNumLockState.py",
+            "002_getListAllShortcuts.py",
+            "006_setCapsLockState.py",
+            "013_modifyCustomShortcut.py",
+            "011_getCapsLockState.py",
+            "004_getNumLockState.py",
+            "009_lookupConflictingShortcut.py",
+            "008_shortcutSwitchLayout.py",
+            "001_keybindingReset.py",
+            "010_getShortcut.py",
+            "003_getListShortcutsByType.py",
+            "012_addCustomShortcut.py",
+            "017_clearShortcutKeystrokes.py"
+          ]
+        },
+        "calendarScheduler": {
+          "files": [
+            "004_createJob.py",
+            "003_getJob.py",
+            "005_updateJob.py",
+            "007_getJobWithRule.py",
+            "001_getJobs.py",
+            "002_queryJobs.py",
+            "006_getJobsWithLimit.py"
+          ]
+        },
+        "inputDeviceWacom": {
+          "files": [
+            "002_deviceList.py",
+            "010_exist.py",
+            "009_eraserRawSample.py",
+            "007_keyDownAction.py",
+            "017_actionInfos.py",
+            "003_leftHanded.py",
+            "016_reset.py",
+            "006_forceProportions.py",
+            "011_keyUpAction.py",
+            "015_eraserPressureSensitive.py",
+            "014_stylusPressureSensitive.py",
+            "004_stylusThreshold.py",
+            "001_mouseEnterRemap.py",
+            "012_mapOutput.py",
+            "008_suppress.py",
+            "005_eraserThreshold.py",
+            "013_cursorMode.py"
+          ]
+        },
+        "mime": {
+          "files": [
+            "006_deleteUserApp.py",
+            "007_setDefaultApp.py",
+            "002_listUserApps.py",
+            "005_addUserApp.py",
+            "001_listApps.py",
+            "003_getDefaultApp.py",
+            "004_deleteApp.py"
+          ]
+        },
+        "cursorHelper": {
+          "files": [
+            "001_cursorHelperSet.py"
+          ]
+        },
+        "audio": {
+          "files": [
+            "015_getDefaultSource.py",
+            "011_getSources.py",
+            "005_isPortEnabled.py",
+            "012_getIncreaseVolume.py",
+            "002_getCardsWithoutUnavailable.py",
+            "004_setPortDisabled.py",
+            "014_getDefaultSink.py",
+            "003_setPortEnabled.py",
+            "008_getCards.py",
+            "010_getSinks.py",
+            "001_getReduceNoise.py",
+            "006_noRestartPulseAudio.py",
+            "013_getMaxUIVolume.py",
+            "007_reset.py",
+            "009_getSinkInputs.py"
+          ]
+        },
+        "audioSink": {
+          "files": [
+            "002_sinkGetMeter.py",
+            "003_sinkSetFade.py",
+            "009_sinkSetBalancNotPlay.py",
+            "001_getSinkPorts.py",
+            "004_getSinkFade.py",
+            "015_getSinkBaseVolume.py",
+            "010_sinkSetVolumeIsPlay.py",
+            "017_getSinkDescription.py",
+            "011_sinkSetVolumeNotPlay.py",
+            "014_getSinkBalance.py",
+            "013_getSinkSupportFade.py",
+            "021_sinkSetPort.py",
+            "018_getSinkName.py",
+            "005_sinkSetMuteEnable.py",
+            "016_getSinkVolume.py",
+            "006_sinkSetMuteDisable.py",
+            "008_sinkSetBalanceIsPlay.py",
+            "019_getSinkActivePort.py",
+            "012_getSinkSupportBalance.py",
+            "007_getSinkMute.py",
+            "020_getSinkCard.py"
+          ]
+        },
+        "daemonSearch": {
+          "files": [
+            "002_newSearchWithStrList.py",
+            "001_newSearchWithStrDict.py",
+            "004_searchString.py",
+            "003_searchStartWithString.py"
+          ]
+        },
+        "launcherSyncConfig": {
+          "files": [
+            "002_launcherSyncConfigSet.py",
+            "001_launcherSyncConfigGet.py"
+          ]
+        },
+        "sessionManagerStartManager": {
+          "files": [
+            "003_addAutostart_03.py",
+            "001_addAutostart_01.py",
+            "005_dumpMemRecord.py",
+            "010_removeAutostart.py",
+            "012_launch.py",
+            "011_getNeededMemory.py",
+            "004_autostartList.py",
+            "008_isAutostart_02.py",
+            "002_addAutostart_02.py",
+            "006_getApps.py",
+            "009_isMemSufficient.py",
+            "007_isAutostart_01.py"
+          ]
+        },
+        "daemonSystemInfo": {
+          "files": [
+            "008_DiskCap.py",
+            "004_DistroID.py",
+            "002_SystemType.py",
+            "001_CPUMaxMHz.py",
+            "005_DistroVer.py",
+            "003_DistroDesc.py",
+            "006_Processor.py",
+            "007_Version.py",
+            "009_MemoryCap.py"
+          ]
+        },
+        "audioSource": {
+          "files": [
+            "011_sourceSetVolumeNotPlay.py",
+            "016_getSourceVolume.py",
+            "015_getSourceBaseVolume.py",
+            "005_sourceSetMuteEnable.py",
+            "013_getSourceSupportFade.py",
+            "007_getSourceMute.py",
+            "017_getSourceDescription.py",
+            "018_getSourceName.py",
+            "003_sourceSetFade.py",
+            "004_getSourceFade.py",
+            "012_getSourceSupportBalance.py",
+            "014_getSourceBalance.py",
+            "001_getSourcePorts.py",
+            "010_sourceSetVolumeIsPlay.py",
+            "008_sourceSetBalanceIsPlay.py",
+            "019_getSourceActivePort.py",
+            "021_sourceSetPort.py",
+            "009_sourceSetBalancNotPlay.py",
+            "002_sourceGetMeter.py",
+            "006_sourceSetMuteDisable.py",
+            "020_getSourceCard.py"
+          ]
+        }
+      },
+      "systemBus": {
+        "lastoreManager": {
+          "files": [
+            "011_installedPackageDesktopPath.py",
+            "012_uninstalledPackageDesktopPath.py",
+            "003_disableAutoClean.py",
+            "014_invalidPackageInstallableStatus.py",
+            "002_enableAutoClean.py",
+            "001_cleanArchives.py",
+            "013_validPackageInstallableStatus.py",
+            "020_getJobList.py",
+            "023_getSystemOnChanging.py",
+            "007_fixErrTypeDpkgInterrupted.py",
+            "004_getEnableAutoCleanStatus.py",
+            "006_cleanJob.py",
+            "021_getSystemArchitectures.py",
+            "009_installedPackageExistsStatus.py",
+            "015_packagesDownloadSize.py",
+            "017_prepareDistUpgrade.py",
+            "010_uninstalledPackageExistsStatus.py",
+            "022_getUpgradableApps.py",
+            "018_distUpgrade.py",
+            "008_fixErrTypeDependenciesBroken.py",
+            "019_updatePackage.py",
+            "005_getDisableAutoCleanStatus.py",
+            "016_updateSource.py"
+          ]
+        },
+        "user": {
+          "files": [
+            "017_setMaxPasswordAge.py",
+            "056_getShortTimeFormat.py",
+            "058_setLongTimeFormat_02.py",
+            "016_setLocked.py",
+            "061_getLongTimeFormat.py",
+            "033_getLoginTime.py",
+            "023_IsSystemAccount.py",
+            "028_getUUID.py",
+            "036_setShortDateFormat_02.py",
+            "035_setShortDateFormat_01.py",
+            "020_setUse24HourFormat.py",
+            "029_getUid.py",
+            "038_setShortDateFormat_04.py",
+            "050_setLongDateFormat_03.py",
+            "004_disableNoPasswdLogin.py",
+            "018_setPassword.py",
+            "001_addGroup.py",
+            "059_setLongTimeFormat_03.py",
+            "041_setShortDateFormat_07.py",
+            "037_setShortDateFormat_03.py",
+            "012_setIconFile.py",
+            "014_setHomeDir.py",
+            "015_setLocale.py",
+            "006_setAutomaticLogin.py",
+            "011_setLayout.py",
+            "057_setLongTimeFormat_01.py",
+            "055_setShortTimeFormat_04.py",
+            "008_setFullName.py",
+            "024_IsNotSystemAccount.py",
+            "047_getWeekdayFormat.py",
+            "053_setShortTimeFormat_02.py",
+            "043_setShortDateFormat_09.py",
+            "009_setGreeterBackground.py",
+            "027_getGid.py",
+            "031_getXSession.py",
+            "013_setHistoryLayout.py",
+            "049_setLongDateFormat_02.py",
+            "034_deleteIconFile.py",
+            "003_enableNoPasswdLogin.py",
+            "048_setLongDateFormat_01.py",
+            "052_setShortTimeFormat_01.py",
+            "045_setWeekdayFormat_01.py",
+            "025_getAccountType.py",
+            "007_setDesktopBackgrounds.py",
+            "005_isPasswordExpired.py",
+            "046_setWeekdayFormat_02.py",
+            "051_getLongDateFormat.py",
+            "030_getUserName.py",
+            "042_setShortDateFormat_08.py",
+            "019_setShell.py",
+            "026_getPasswordLastChange.py",
+            "010_setGroup.py",
+            "039_setShortDateFormat_05.py",
+            "040_setShortDateFormat_06.py",
+            "021_setNotUse24HourFormat.py",
+            "054_setShortTimeFormat_03.py",
+            "044_getShortDateFormat.py",
+            "060_setLongTimeFormat_04.py",
+            "002_deleteGroup.py",
+            "032_getCreatedTime.py",
+            "022_getIconList.py"
+          ]
+        },
+        "apiLocaleHelper": {
+          "files": [
+            "006_success_02.py",
+            "003_setLocale_01.py",
+            "004_setLocale_02.py",
+            "001_generateLocale_01.py",
+            "005_success_01.py",
+            "002_generateLocale_02.py"
+          ]
+        },
+        "timedated": {
+          "files": [
+            "007_setNTPServer.py",
+            "009_setTimeWithoutRelative.py",
+            "011_getNTPServer.py",
+            "006_setDisableNTP.py",
+            "005_setEnableNTP.py",
+            "002_setLocalRTC_02.py",
+            "001_setLocalRTC_01.py",
+            "008_setTimeWithRelative.py",
+            "003_setLocalRTC_03.py",
+            "010_setTimezone.py",
+            "004_setLocalRTC_04.py"
+          ]
+        },
+        "daemon": {
+          "files": [
+            "004_setLongPressDuration.py",
+            "003_scalePlymouth_02.py",
+            "002_scalePlymouth_01.py",
+            "001_networkGetConnections.py"
+          ]
+        },
+        "userExperience": {
+          "files": [
+            "009_sendLoginData.py",
+            "002_disableUserexperience.py",
+            "001_enableUserexperience.py",
+            "004_isDisabledUserexperience.py",
+            "008_sendAppCloseData.py",
+            "005_sendAppInstallData.py",
+            "007_sendAppOpenData.py",
+            "006_sendAppUninstallData.py",
+            "010_sendLogoutData.py",
+            "003_isEnabledUserexperience.py",
+            "011_sendShutdownData.py"
+          ]
+        },
+        "helperBacklight": {
+          "files": [
+            "001_refreshDisplays.py"
+          ]
+        },
+        "gesture": {
+          "files": [
+            "003_setDblclickDuration.py",
+            "001_setEdgeMoveStopDuration.py",
+            "002_setShortPressDuration.py"
+          ]
+        },
+        "network": {
+          "files": [
+            "002_disableDeviceByPath.py",
+            "008_toggleWirelessEnabled.py",
+            "007_getVpnEnabledStatus.py",
+            "010_disableDevSignalRec.py",
+            "004_pingNormalIp.py",
+            "001_enableDeviceByPath.py",
+            "006_pingInvalidIp.py",
+            "009_enableDevSignalRec.py",
+            "003_isDeviceEnabledByPath.py",
+            "005_pingErrorIp.py"
+          ]
+        },
+        "soundThemePlayer": {
+          "files": [
+            "004_playSoundDesktopLogin.py",
+            "002_disableSoundDesktopLogin.py",
+            "001_enableSoundDesktopLogin.py",
+            "003_play.py",
+            "006_setSoundTheme.py",
+            "005_saveAudioState.py"
+          ]
+        },
+        "imageEffect": {
+          "files": [
+            "002_deleteImageEffect.py",
+            "001_getImageEffect.py"
+          ]
+        },
+        "swapSchedHelper": {
+          "files": [
+            "002_prepare_02.py",
+            "001_prepare_01.py"
+          ]
+        },
+        "smartMirror": {
+          "files": [
+            "002_disableSmartmirror.py",
+            "001_enableSmartmirror.py",
+            "003_getEnableStatus.py",
+            "005_queryMirror.py",
+            "004_getDisableStatus.py"
+          ]
+        },
+        "appsLaunchedRecorder": {
+          "files": [
+            "001_getNew.py",
+            "002_markLaunched.py",
+            "005_statusSaved.py",
+            "004_watchDirs.py",
+            "003_uninstallHints.py"
+          ]
+        },
+        "abRecovery": {
+          "files": [
+            "009_backupVersion.py",
+            "002_canRestore.py",
+            "001_canBackup.py",
+            "007_configValid.py",
+            "010_jobEnd.py",
+            "005_backingUp_02.py",
+            "008_backupTime.py",
+            "006_restoring.py",
+            "003_startBackup.py",
+            "004_backingUp_01.py"
+          ]
+        },
+        "grub": {
+          "files": [
+            "015_setBackgroundSourceFile.py",
+            "007_setTimeout.py",
+            "014_getBackground.py",
+            "011_getUpdating.py",
+            "008_reset.py",
+            "001_getAvailableGfxmodes.py",
+            "004_getDefaultEntry.py",
+            "005_setEnableTheme.py",
+            "016_monitorBackgroundChanged.py",
+            "002_getCurrentGfxmode.py",
+            "006_setDisableTheme.py",
+            "009_setDefaultEntry.py",
+            "013_getTimeout.py",
+            "003_getSimpleEntryTitles.py",
+            "010_getEnableTheme.py",
+            "012_getThemeFile.py"
+          ]
+        },
+        "power": {
+          "files": [
+            "007_getOnBattery.py",
+            "006_getHasLidSwitch.py",
+            "016_getBatteryTimeToFull.py",
+            "013_getBatteryStatus.py",
+            "012_getBatteryPercentage.py",
+            "001_getBatteries.py",
+            "009_getPowerSavingModeAutoWhenBatteryLow.py",
+            "003_refreshBatteries.py",
+            "008_getPowerSavingModeAuto.py",
+            "011_getBatteryCapacity.py",
+            "004_refreshMains.py",
+            "014_getPowerSavingModeBrightnessDropPercent.py",
+            "015_getBatteryTimeToEmpty.py",
+            "010_getPowerSavingModeEnabled.py",
+            "002_refresh.py",
+            "005_getHasBattery.py"
+          ]
+        },
+        "lastoreUpdater": {
+          "files": [
+            "009_setUpdateNotifyDisable.py",
+            "013_updatablePackages.py",
+            "017_mirrorSource.py",
+            "003_applicationUpdateInfos.py",
+            "005_setAutoCheckUpdatesDisable.py",
+            "007_setAutoDownloadUpdatesDisable.py",
+            "011_setErroMirrorSource.py",
+            "001_listMirrorSources.py",
+            "014_autoCheckUpdates.py",
+            "002_getCheckIntervalAndTime.py",
+            "004_setAutoCheckUpdatesEnable.py",
+            "006_setAutoDownloadUpdatesEnable.py",
+            "010_setMirrorSource.py",
+            "008_setUpdateNotifyEnable.py",
+            "016_updateNotify.py",
+            "012_readUpdatableApps.py",
+            "015_autoDownloadUpdates.py"
+          ]
+        },
+        "accounts": {
+          "files": [
+            "003_createUser.py",
+            "005_findUserById.py",
+            "013_monitorSignals.py",
+            "011_randUserIcons.py",
+            "009_getGroups.py",
+            "007_isPasswordValid.py",
+            "010_getPresetGroups.py",
+            "002_createGuestAccount.py",
+            "008_isUsernameValid.py",
+            "006_findUserByName.py",
+            "004_deleteUser.py",
+            "012_getGuestIcon.py",
+            "001_allowGuestAccount.py"
+          ]
+        },
+        "appsDesktopFileWatcher": {
+          "files": [
+            "001_event.py"
+          ]
+        }
+      }
+    }
+  }
+}

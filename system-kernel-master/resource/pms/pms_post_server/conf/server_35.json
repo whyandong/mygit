@@ -1,0 +1,77 @@
+{
+    "Debug": true,
+    "Api": {
+        "Host": "0.0.0.0",
+        "Port": 50050
+    },
+    "Rpc": {
+        "Port": ":50051"
+    },
+    "Mysql": {
+        "Host": "10.0.10.27",
+        "Port": 3306,
+        "Username": "notification",
+        "Password": "notification",
+        "Database": "notification"
+    },
+    "Redis": {
+        "Host": "10.0.10.27",
+        "Port": "6490",
+        "Password": "",
+        "Db": 0
+    },
+    "DefaultTempletLanguage": "cn",
+    "Oauth2Uri": {
+        "Info": "https://login-platform.uniontech.com/info"
+    },
+    "RbacUri": {
+        "AppVerify": "http://test.manager.platform.deepin.com/api/v1/third_party/app/verify",
+        "AppList": "http://test.manager.platform.deepin.com/api/v1/third_party/app",
+        "AppRole": "http://test.manager.platform.deepin.com/api/v1/third_party/app_role"
+    },
+    "RbacToken": "UH6fi7wpZCKTkdhicuU0miVRGvGPXmZB",
+    "OAuth2": {
+        "ClientID": "37ae9a7c400b152beb84881e6705ab219d6a93ae",
+        "ClientSecret": "4b1fc94a8052f0d44646a83d7687e317b09172d0",
+        "RedirectURL": "https://utp.uniontech.com/api/v1/callback",
+        "Scopes": [
+            "base",
+            "user:read"
+        ],
+        "Endpoint": {
+            "AuthURL": "https://login-platform.uniontech.com/login",
+            "TokenURL": "https://login-platform.uniontech.com/token"
+        }
+    },
+    "Mail": {
+        "deepin@mail.linuxdeepin.com": {
+            "ApiUrl": "http://api.sendcloud.net/apiv2/mail/send",
+            "ApiUser": "linuxdeepin_test_K8TTvT",
+            "ApiKey": "pVxju8iGfl4DtA8l"
+        },
+        "admin@notice.chinauos.com": {
+            "ApiUrl": "http://api.sendcloud.net/apiv2/mail/send",
+            "ApiUser": "chinauos_test",
+            "ApiKey": "88G85jx0LKiB9sqI"
+        }
+    },
+    "sms": {
+        "URL": "http://47.105.63.114:7862",
+        "UserId": "",
+        "User": "922241",
+        "Key": "SCZhsm",
+        "ExtNo": 10690241
+    },
+    "StepID": {
+        "RebootStepID": "001",
+        "BootNumbStepID": "002",
+        "InstallIsoStepID": "010",
+        "OemPxeStepID": "111",
+        "InstallEnvStepID": "021",
+        "SetPmsStepID": "031",
+        "RunTestStepID": "022",
+        "CaseTotalStepID": "023",
+        "TestResultStepID": "024",
+        "RunRobotStepID": "041"
+    }
+}

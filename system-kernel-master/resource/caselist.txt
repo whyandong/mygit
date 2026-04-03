@@ -1,0 +1,7 @@
+script/one_module/005_setEnableNTP.py
+script/one_module/test_one_module_001.py
+script/one_module/test_one_module_002.py
+script/one_module/test_one_module_003.py
+script/one_module/test_one_module_004.py
+script/one_module/检查控制中心－输入法，添加输入法页面的显示.py
+script/one_module/测试中文名称脚本.py

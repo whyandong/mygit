@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Network
+Comment=PMS结果回填接口
+Exec=/media/yangkai/DataDisk/SW/pms_post_server/pms_result
+Icon=network-server-symbolic.svg
+Name=PMS结果回填接口
+Terminal=false
+Type=Application
+X-Deepin-Vendor=user-custom
+X-Ubuntu-Touch=true
